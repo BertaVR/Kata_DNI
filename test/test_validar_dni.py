@@ -1,4 +1,4 @@
-from src.validar_dni import *
+from src.validar_dni import Validar_DNI
 
 def test_validar_formato():
     assert Validar_DNI('41569305').validar_formato == True
